@@ -1,0 +1,102 @@
+body{
+  background-image: url(../images/banner.png);
+  background-size: cover;
+  
+}
+.current{
+  width: 33%;
+
+}
+.tomorrow{
+  width: 33%;
+}
+.after{
+  width: 33%;
+}
+.navbar-expand-lg{
+background-color:#1e202b ;
+}
+
+.nav-link {
+  color: white;
+  margin: 20px;
+}
+.find-form{
+  width: 100%;
+    padding: 20px 50px 20px 20px;
+    color: white;
+}
+ .nav-item:hover a{
+  color: #009ad8;
+border-color: #009ad8;
+}
+
+.nav-item a{
+    padding: 5px 65px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    color: white;
+  
+    transition: 0.3s ease;
+    font-weight: 400;
+
+}
+.btn-find , .btn-Subscribe{
+  padding: 2px 45px;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  color: white;
+  background-color: #009ad8;
+
+}
+.social-media i{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border-radius: 50%;
+  background: #1e202b;
+  color: #009ad8;
+  text-align: center;
+  line-height: 2;
+  display: inline-block;
+  
+}
+.social-media i:hover{
+  background-color: #009ad8;
+  color: white;
+}
+.forecast-container{
+  width: 100%;
+    background: #323544;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+.forecast-header{
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+}
+.forecast-content{
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+body{
+  color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.card{
+  width: 60%;
+  height: 80%;
+  margin-right: 50px;
+}
